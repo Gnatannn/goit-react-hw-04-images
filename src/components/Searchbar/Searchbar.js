@@ -13,7 +13,7 @@ export const Searchbar = ({ onSubmitDetails }) => {
   const handleSubmit = (values, actions) => {
     onSubmitDetails(values);
     actions.setSubmitting(false);
-    actions.resetForm();
+    // actions.resetForm();
   };
   return (
     <SearchBar>
